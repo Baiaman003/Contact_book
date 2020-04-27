@@ -6,7 +6,7 @@ body{
 .backImg{
     height: 100vh;
     background-size: cover;
-    background: url('../img/oval.jpg') center no-repeat;
+    background: url('../media/img/oval.jpg') center no-repeat;
 }
 .container{
     display: flex;
@@ -137,6 +137,7 @@ li{
 
 
 .showerForm{
+    color: black;
     border: 3px solid gray;
     border-radius: 10px;
     padding: 10px 30px;
@@ -147,6 +148,7 @@ li{
     display: flex;
     margin-bottom: 7%;
 }
+
 
 .sr {
     display: flex;
@@ -160,7 +162,7 @@ li{
     border: none;
     margin: 3px 0 0 5px;
     background-size: contain;
-    background: url('../img/icon_search.png') center no-repeat;
+    background: url('../media/img/icon_search.png') center no-repeat;
 }
 .btnAdd{
     width: 40px;
@@ -168,7 +170,7 @@ li{
     border: none;
     margin: 0 10px;
     background-size: contain;
-    background: url('../img/icon_add.png') center no-repeat;
+    background: url('../media/img/icon_add.png') center no-repeat;
 }
 
 .btnNext{
@@ -178,7 +180,7 @@ li{
     border: none;
     border-radius: 50px;
     background-size: cover;
-    background: url('../img/next-page-100.png') no-repeat center;
+    background: url('../media/img/next-page-100.png') no-repeat center;
 }
 .btnPrev{
     width: 80px;
@@ -187,12 +189,13 @@ li{
     border: none;
     border-radius: 50px;
     background-size: cover;
-    background: url('../img/prev-page-100.png') no-repeat center;
+    background: url('../media/img/prev-page-100.png') no-repeat center;
 }
 .shFormInner {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    color: white;
 }
     .form-group {
     width: 200px;

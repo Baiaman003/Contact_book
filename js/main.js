@@ -1,37 +1,37 @@
 
 function soundAdd(){
   let audio = new Audio();
-  audio.src = './audio/add.wav';
+  audio.src = './media/audio/add.wav';
   audio.autoplay = true;
 }
 function soundDel(){
   let audio = new Audio();
-  audio.src = './audio/del.wav';
+  audio.src = './media/audio/del.wav';
   audio.autoplay = true;
 }
 function soundUpdate(){
   let audio = new Audio();
-  audio.src = './audio/update.wav';
+  audio.src = './media/audio/update.wav';
   audio.autoplay = true;
 }
 function soundNoResult(){
   let audio = new Audio();
-  audio.src = './audio/noResult.wav';
+  audio.src = './media/audio/noResult.wav';
   audio.autoplay = true;
 }
 function soundFirstPage(){
   let audio = new Audio();
-  audio.src = './audio/firstPage.wav';
+  audio.src = './media/audio/firstPage.wav';
   audio.autoplay = true;
 }
 function soundLastPage(){
   let audio = new Audio();
-  audio.src = './audio/lastPage.wav';
+  audio.src = './media/audio/lastPage.wav';
   audio.autoplay = true;
 }
 function soundInput(){
   let audio = new Audio();
-  audio.src = './audio/inputName.wav';
+  audio.src = './media/audio/inputName.wav';
   audio.autoplay = true;
 }
 
